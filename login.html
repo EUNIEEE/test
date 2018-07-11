@@ -1,0 +1,81 @@
+<!DOCType html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    header {
+      background-color: #d5d5d5;
+      height: 50px;
+    }
+
+    nav {
+      background-color: #d5d5d5;
+      color: white;
+      width: 200px;
+      height: 600px;
+      float: left;
+    }
+
+    section {
+
+      width: 200px;
+      text-align: center;
+      float: left;
+    }
+
+    footer {
+      height: 50px;
+      clear: both;
+    }
+
+    header,
+    nav,
+    section,
+    footer {
+      text-align: center;
+    }
+
+
+    footer {
+      line-height: 100px;
+    }
+  </style>
+</head>
+<title>메인</title>
+
+<body>
+
+  <header>
+    <input type="button" value="회원가입" name="join" id="join" style="position: relative; left:670px; right:80px;
+      background-color:white; border-color:white; border-radius: 6px; font-family: 'NanumSquare'; font-size:15px;" onclick="goPage()";>
+    <input type="button" value="로그인" name="login" id="login" style="position: relative; left:670px; right:110px;
+      background-color:white; border-color:white; border-radius: 6px; font-family: 'NanumSquare'; font-size:15px;" onclick="goLogin()";>
+
+  </header>
+  <nav id="nav">
+    <ul>
+      <li><a href="home.html" style="color:white; text-decoration:none;">HOME</a></li>
+      <li><a href="signin.html" style="color:white; text-decoration:none;">JOIN</a></li>
+      <li>LOGIN</li>
+      <li>INFO</li>
+    </ul>
+  </nav>
+  <section id="section">
+
+    <article style="position:relative; left:580px; right:580px; padding-top:300px;">
+
+
+      <input type="text" name="putid" id="putid" placeholder="아이디"><br>
+      <input type="text" name="putpw" id="putpw" placeholder="비밀번호"><br>
+      <input type="button" name="btn_ok" id="btn_ok" value="확인" style="font-family:'NanumSquare'; font-size:15px;">
+      <input type="button" name="btn_cancel" id="btn_cancel" value="취소"  style="font-family:'NanumSquare';font-size:15px;";>
+
+
+    </article>
+  </section>
+  <footer>
+    <p style="font-family: 'NanumSquare';">Copyright(c)2018 by H. All pictures cannot be copied without permission</footer>
+</body>
+
+</html>
